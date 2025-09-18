@@ -3,8 +3,8 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Online"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+venue: "Zoom"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "ca"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -460,14 +460,22 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% elsif site.carpentry == "incubator" %}
-Please check the "Setup" page of
-<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
-to obtain the software and data you will need to follow the lesson.
-{% endif %}
+<p>Please follow the below-linked setup instructions <strong>in advance</strong> to make sure you are ready for this workshop</p>
+<ul>
+	<li>Unix Shell:</li>
+	<ul>
+		<li><a href="https://swcarpentry.github.io/shell-novice/#download-files">download files</a></li>
+		<li><a href="https://carpentries.github.io/workshop-template/install_instructions/#shell">install software</a></li>
+	</ul>
+	<li>Git:</li>
+	<ul>
+		<li><a href="https://swcarpentry.github.io/git-novice/#installing-git">install git</a></li>
+		<li><a href="https://swcarpentry.github.io/git-novice/#creating-a-github-account">Create a GitHub account</a></li>
+	</ul>
+	<li>R:</li>
+	<ul>
+		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-r-and-rstudio">install R and RStudio</li>
+		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-required-r-packages">install required R packages"</li>
+		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#download-the-data">download files</a></li>
+	</ul>
+</ul>
