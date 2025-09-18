@@ -11,7 +11,7 @@ latitude: "45"        # decimal latitude of workshop venue (use https://www.latl
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "October 7, 9, 14, & 16, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantimeA: "1:00 - 4:30pm Atlantic time"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-humantimeE: "11:30am - 3:00pm Eastern time"
+humantimeE: "12:00am - 3:30pm Eastern time"
 startdate: 2025-10-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-10-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Grace Fishbein", "Jake Szamosi","Chris Geroux", "Shahrokh Shekarriz", "Kate Kennedy" , "Dominique Tertigas"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -455,24 +455,26 @@ to include the relevant installation instructions.
 
 <p>Please follow the below-linked setup instructions <strong>in advance</strong> to make sure you are ready for this workshop</p>
 
+<p>
 <ul>
 	<li>Unix Shell:</li>
-	<ul>
+	<li><ul>
 		<li><a href="https://swcarpentry.github.io/shell-novice/#download-files">download files</a></li>
 		<li><a href="https://carpentries.github.io/workshop-template/install_instructions/#shell">install software</a></li>
-	</ul>
+	</ul></li>
 	<li>Git:</li>
-	<ul>
+	<li><ul>
 		<li><a href="https://swcarpentry.github.io/git-novice/#installing-git">install git</a></li>
 		<li><a href="https://swcarpentry.github.io/git-novice/#creating-a-github-account">Create a GitHub account</a></li>
-	</ul>
+	</ul></li>
 	<li>R:</li>
-	<ul>
+	<li><ul>
 		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-r-and-rstudio">install R and RStudio</li>
 		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-required-r-packages">install required R packages"</li>
 		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#download-the-data">download files</a></li>
-	</ul>
+	</ul></li>
 </ul>
+</p>
 
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
