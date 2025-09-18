@@ -454,6 +454,7 @@ to include the relevant installation instructions.
 {% endcomment %}
 
 <p>Please follow the below-linked setup instructions <strong>in advance</strong> to make sure you are ready for this workshop</p>
+
 <ul>
 	<li>Unix Shell:</li>
 	<ul>
