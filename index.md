@@ -447,6 +447,12 @@ For online workshops, the section below provides:
 - recommendations for setting up Learners' workspace so they can follow along
   the instructions and the videoconferencing
 
+
+If you do not use Zoom for your online workshop, edit the file
+`_includes/install_instructions/videoconferencing.html`
+to include the relevant installation instructions.
+{% endcomment %}
+
 <p>Please follow the below-linked setup instructions <strong>in advance</strong> to make sure you are ready for this workshop</p>
 <ul>
 	<li>Unix Shell:</li>
@@ -467,10 +473,6 @@ For online workshops, the section below provides:
 	</ul>
 </ul>
 
-If you do not use Zoom for your online workshop, edit the file
-`_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instructions.
-{% endcomment %}
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
