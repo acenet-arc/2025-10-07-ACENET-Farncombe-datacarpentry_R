@@ -182,7 +182,7 @@ This block displays the date and links to Google Calendar.
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}; {{page.humantimeA}}; {{page.humantimeE}}
+  {{page.humandate}}; {{page.humantimeA}}/{{page.humantimeE}}
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
