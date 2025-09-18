@@ -455,26 +455,24 @@ to include the relevant installation instructions.
 
 <p>Please follow the below-linked setup instructions <strong>in advance</strong> to make sure you are ready for this workshop</p>
 
-<p>
 <ul>
 	<li>Unix Shell:</li>
-	<li><ul>
+	<ul>
 		<li><a href="https://swcarpentry.github.io/shell-novice/#download-files">download files</a></li>
 		<li><a href="https://carpentries.github.io/workshop-template/install_instructions/#shell">install software</a></li>
-	</ul></li>
+	</ul>
 	<li>Git:</li>
-	<li><ul>
+	<ul>
 		<li><a href="https://swcarpentry.github.io/git-novice/#installing-git">install git</a></li>
 		<li><a href="https://swcarpentry.github.io/git-novice/#creating-a-github-account">Create a GitHub account</a></li>
-	</ul></li>
+	</ul>
 	<li>R:</li>
-	<li><ul>
+	<ul>
 		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-r-and-rstudio">install R and RStudio</li>
 		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-required-r-packages">install required R packages"</li>
-		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#download-the-data">download files</a></li>
-	</ul></li>
+		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#download-the-data">download files</a></li></ul>
+	<li>That's it!</li>
 </ul>
-</p>
 
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
