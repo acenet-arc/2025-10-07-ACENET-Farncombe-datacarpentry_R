@@ -10,7 +10,8 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "October 7, 9, 14, & 16, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "1:00 - 4:30pm Atlantic time"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantimeA: "1:00 - 4:30pm Atlantic time"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantimeE: "11:30am - 3:00pm Eastern time"
 startdate: 2025-10-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-10-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Grace Fishbein", "Jake Szamosi","Chris Geroux"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -181,7 +182,7 @@ This block displays the date and links to Google Calendar.
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}; {{page.humantime}}
+  {{page.humandate}}; {{page.humantimeA}}; {{page.humantimeE}}
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
