@@ -468,7 +468,8 @@ to include the relevant installation instructions.
 	</ul>
 	<li>R:</li>
 	<ul>
-		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-r-and-rstudio">install R and RStudio</li>
+		<li><a
+		href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-r-and-rstudio">install R and RStudio</a></li>
 		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#install-required-r-packages">install required R packages"</li>
 		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#download-the-data">download files</a></li></ul>
 	<li>That's it!</li>
