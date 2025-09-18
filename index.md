@@ -447,19 +447,6 @@ For online workshops, the section below provides:
 - recommendations for setting up Learners' workspace so they can follow along
   the instructions and the videoconferencing
 
-If you do not use Zoom for your online workshop, edit the file
-`_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instructions.
-{% endcomment %}
-{% if online != "false" %}
-{% include install_instructions/videoconferencing.html %}
-{% endif %}
-
-{% comment %}
-These are the installation instructions for the tools used
-during the workshop.
-{% endcomment %}
-
 <p>Please follow the below-linked setup instructions <strong>in advance</strong> to make sure you are ready for this workshop</p>
 <ul>
 	<li>Unix Shell:</li>
@@ -479,3 +466,17 @@ during the workshop.
 		<li><a href="https://datacarpentry.github.io/R-ecology-lesson/index.html#download-the-data">download files</a></li>
 	</ul>
 </ul>
+
+If you do not use Zoom for your online workshop, edit the file
+`_includes/install_instructions/videoconferencing.html`
+to include the relevant installation instructions.
+{% endcomment %}
+{% if online != "false" %}
+{% include install_instructions/videoconferencing.html %}
+{% endif %}
+
+{% comment %}
+These are the installation instructions for the tools used
+during the workshop.
+{% endcomment %}
+
